@@ -33,7 +33,6 @@ public class AutoMine extends JavaPlugin {
                 })
                 .forEach(pair -> blocks.addAll(Collections.nCopies(pair.right(), pair.left())));
 
-        System.out.println(blocks);
         Bukkit.getScheduler().runTaskTimer(this, () -> {
             cuboid.getBlocks()
                     .stream()
