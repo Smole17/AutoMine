@@ -1,0 +1,6 @@
+update-period: 300 # In ticks
+position: world 0 100 0 5 120 5
+blocks:
+  - STONE:100
+  - DIRT:250
+  - COAL_ORE:10
